@@ -1,0 +1,140 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* :root {
+  --background-characteristics: #1e1a13;
+} */
+
+body {
+  /* background-color: black;
+  color: white; */
+  font-family: "Raleway", sans-serif;
+}
+
+/* header */
+
+.header-title {
+  height: 65px;
+  margin-top: 12px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.main-background {
+  background-position: center;
+  background-size: cover;
+}
+
+/* content */
+
+.content {
+  height: 348px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content-text {
+  width: 475px;
+  height: 197px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.content-image {
+  width: 399px;
+  height: 237px;
+}
+
+.content-text p {
+  font-family: "Raleway" light, sans-serif;
+}
+
+/* caracteristics icons */
+
+.characteristics {
+  height: 348px;
+  background-color: #1e1a13;
+  padding-block: 75px;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.characteristics .characteristics-title {
+  font-size: 40px;
+  font: normal normal medium 40px/47px Raleway;
+  letter-spacing: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.icon-group {
+  text-align: center;
+}
+.icon-group i {
+  font-size: 50px;
+}
+
+.icon-group p {
+  font-size: 24px;
+  font-family: "Raleway" light, sans-serif;
+}
+.icon-group:hover {
+  color: #ca955c;
+  border: #000000;
+}
+
+/* image section */
+
+.img-section {
+  background-color: black;
+  width: 1280px;
+  vertical-align: middle;
+}
+
+.img-container {
+  height: 348px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-container img {
+  height: 202px;
+  width: 316px;
+}
+
+/* footer */
+.footer {
+  height: 102px;
+  text-align: center;
+  letter-spacing: 0px;
+  background-color: #1e1a13;
+}
+
+.footer p {
+  font-size: 20px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+p a:hover {
+  color: #ca955c;
+  border: #000000;
+}
